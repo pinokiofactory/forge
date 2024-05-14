@@ -7,7 +7,7 @@ module.exports = class Setup {
 set PYTHON=
 set GIT=
 set VENV_DIR=
-set COMMANDLINE_ARGS=--no-download-sd-model --gradio-allowed-path ${path.resolve(__dirname, 'app/output').replaceAll(/\\/g, '\\\\')}
+set COMMANDLINE_ARGS=--no-download-sd-model
 
 @REM Uncomment following code to reference an existing A1111 checkout.
 @REM set A1111_HOME=Your A1111 checkout dir
