@@ -67,9 +67,9 @@ module.exports = async (kernel) => {
         url: "https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-1.0/resolve/main/sd_xl_refiner_1.0.safetensors",
         dir: "app/models/Stable-diffusion"
       }
-    }, {
-      uri: "setup.js",
-      method: "write"
+//    }, {
+//      uri: "setup.js",
+//      method: "write"
     }, {
       method: "shell.run",
       params: {

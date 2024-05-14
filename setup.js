@@ -7,7 +7,7 @@ module.exports = class Setup {
 set PYTHON=
 set GIT=
 set VENV_DIR=
-set COMMANDLINE_ARGS=--gradio-allowed-path ${path.resolve(__dirname, 'app/output')}
+set COMMANDLINE_ARGS=--gradio-allowed-path ${path.resolve(__dirname, 'app/output').replaceAll(/\\/g, '\\\\')}
 
 @REM Uncomment following code to reference an existing A1111 checkout.
 @REM set A1111_HOME=Your A1111 checkout dir
