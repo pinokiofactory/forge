@@ -4,7 +4,8 @@ module.exports = async (kernel) => {
       method: "shell.run",
       params: {
         message: [
-          "git clone -b dev2 https://github.com/betapeanut/stable-diffusion-webui-forge app",
+          //"git clone -b dev2 https://github.com/betapeanut/stable-diffusion-webui-forge app",
+          "git clone https://github.com/betapeanut/stable-diffusion-webui-forge app",
         ]
       }
     }, {
