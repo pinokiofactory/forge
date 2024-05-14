@@ -68,6 +68,9 @@ module.exports = async (kernel) => {
         dir: "app/models/Stable-diffusion"
       }
     }, {
+      uri: "setup.js",
+      method: "write"
+    }, {
       method: "shell.run",
       params: {
         message: "{{platform === 'win32' ? 'webui-user.bat' : 'bash webui.sh -f'}}",
