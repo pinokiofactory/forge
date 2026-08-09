@@ -1,0 +1,4 @@
+# The vendored Stable Diffusion tree is verified byte-for-byte against
+# MANIFEST.sha256 at install time. Any EOL normalization on checkout would
+# change those bytes and fail the check, so keep these files exactly as stored.
+vendor/** -text
